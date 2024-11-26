@@ -3,22 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/fc28033bca.js" crossorigin="anonymous"></script>
     <title>Document</title>
+
 </head>
 <body>
+
+    <!--NAV--------------------------------------------------------------->
+
     <nav class="navbar">
-        <div class="logo">Fruteria</div>
+        <div class="logo">Frutería</div>
 
         <div class="nombreGrupo"></div>
-
-        <input type="text" placeholder="Search..." class="search-bar">
+        
+        <div class="search-group">
+            <input type="text" placeholder="Search..." class="search-bar">     
+            <button class="search-button">  
+                <i class="fas fa-search"></i> <!-- Ícono de lupa -->  
+            </button> 
+        </div>
 
         <div class="cart">
-            <span>Cart:<span id="cart-count">0</span>items</span>
+            <span>Carrito: <span id="cart-count"> 0 </span> Frutas</span>
         </div>
 
     </nav>
 
+ <!--MAIN----------------------------------------------------------------------->
 
     <main>
         <section class="products-section">
@@ -29,7 +41,7 @@
         </section>
 
         <section class="cart-section">
-            <h2>carrito</h2>
+            <h2>Carrito</h2>
             <div id="cart-items">
                 <p>no hay elementos ne le carrito</p>
             </div>
@@ -38,14 +50,27 @@
                 <p>Total:<span id="total-price">$0.00</span></p>
             </div>
         </section>
-
-
-
-
-
-
     </main>
 
+<!--FOOTER------------------------------------------------------------------------>
+
+<footer class="footer">  
+    <div class="footer-content">  
+        <p>&copy; 2024 Frutería Facherita. Todos los derechos reservados.</p>  
+
+        <div class="social-links">  
+            <a href="#" target="_blank" class="social-icon">  
+                <i class="fa-brands fa-facebook"></i>
+            </a>  
+            <a href="#" target="_blank" class="social-icon">  
+                <i class="fa-brands fa-instagram"></i>
+            </a>  
+        </div> 
+
+    </div>  
+</footer> 
+
+<script src="main.js"></script>
 
 </body>
 </html>

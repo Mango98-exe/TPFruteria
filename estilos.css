@@ -1,0 +1,201 @@
+/* Estilos generales */  
+
+* {
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;
+}
+
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #f0f8ff; 
+    color: #333; 
+}  
+
+/* Navegación */  
+.navbar {  
+    background-color: #007bff; 
+    color: white;  
+    padding: 15px;  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+}  
+
+.navbar .logo {  
+    font-size: 24px;  
+    font-weight: bold;  
+}  
+
+.search-bar {  
+    padding: 8px;  
+    border: none;  
+    border-radius: 4px;  
+    width: 200px;  
+}  
+
+.search-button {  
+    background-color: #007bff; 
+    color: white;  
+    border: none;  
+    padding: 8px 12px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    margin-left: 5px; 
+}  
+
+.search-button:hover {  
+    background-color: #0056b3;  
+}  
+
+.cart {  
+    font-size: 18px;  
+}  
+
+/* Sección principal */ 
+
+main {  
+    padding: 20px;  
+}  
+
+/* Sección de productos */  
+
+.products-section {  
+    margin-bottom: 40px;  
+}  
+
+.product-grid {  
+    display: flex;  
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: flex-start; 
+    margin-top: 20px;
+}  
+
+.product-card {  
+    background-color: white; 
+    border: 1px solid #007bff; 
+    border-radius: 8px;  
+    padding: 15px;  
+    text-align: center;  
+    flex: 1 1 calc(25% - 20px); 
+    box-sizing: border-box; 
+    transition: transform 0.2s;  
+}  
+
+.product-card:hover {  
+    transform: scale(1.05); 
+}  
+
+.product-card img {  
+    max-width: 100%;  
+    height: auto;  
+    border-radius: 4px;  
+}  
+
+/* Sección del carrito */ 
+
+.cart-section {  
+    background-color: #e7f1ff; 
+    padding: 20px;  
+    border-radius: 8px;  
+}  
+
+.cart-total {  
+    font-size: 20px;  
+    font-weight: bold; 
+    margin-top: 20px; 
+}  
+
+/* Estilos de lista del carrito */ 
+
+#cart-items {  
+    margin-top: 10px;  
+}  
+
+#cart-items p {  
+    color: #666; 
+}  
+
+/* Estilos de botones */  
+
+.add-to-cart {  
+    background-color: #007bff;   
+    color: white;  
+    border: none;  
+    padding: 10px 15px;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    transition: background-color 0.3s;  
+}  
+
+.add-to-cart:hover {  
+    background-color: #0056b3; 
+}  
+
+/* Estilos de lista */  
+ul {  
+    list-style-type: none; 
+    padding: 0;  
+}  
+
+li {  
+    padding: 5px 0;  
+}  
+
+.eliminarCarrito { 
+        background-color: #007bff;   
+        color: white;  
+        border: none;  
+        padding: 10px 15px;  
+        border-radius: 5px;  
+        cursor: pointer;  
+        transition: background-color 0.3s;  
+}
+
+.eliminarCarrito:hover {  
+    background-color: #0056b3; 
+}  
+
+/* Estilos para el footer */ 
+
+.footer {  
+    background-color: #007bff; 
+    color: white; 
+    padding: 20px 0; 
+    text-align: center; 
+}  
+
+.footer-content {  
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}  
+
+.footer p {  
+    margin: 0; 
+}  
+
+.social-links {  
+    margin-top: 10px; 
+}  
+
+.social-links a{
+    text-decoration: none;
+    list-style: none;
+    color: #e7f1ff;
+}
+
+.social-icon {  
+    margin: 0 10px; 
+}  
+
+.social-icon img {  
+    width: 24px; 
+    height: 24px; 
+    transition: transform 0.3s; 
+}  
+
+.social-icon:hover img {  
+    transform: scale(1.1); 
+} 
